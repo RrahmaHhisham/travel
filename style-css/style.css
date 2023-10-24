@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+}
+.logo span {
+    color: #6666b9;
+}
+.navigation a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: #6666b9;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: end;
+    background: url(https://modo3.com/thumbs/fit630x300/43140/1439208707/%D8%B9%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA_%D8%B9%D9%86_%D8%A7%D9%84%D8%B3%D9%81%D8%B1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2 {
+    /* padding: 0px 100px; */
+    font-size: 50px;
+    font-weight: 500;
+    padding-left: 30px;
+
+}
+.main h4 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+.social-icon a {
+    color: #9999a0;
+    font-size: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+
+.contant .special {
+    width: fit-content;
+    text-align: center;
+    margin-top: 100px;
+    text-transform: capitalize;
+    margin-left: 450px;
+}
+
+.photos-paragraph {
+    width: 100%;
+    position: relative;
+    height: 250px;
+}
+
+.photos-paragraph .photos {
+    width: 50%;
+    position: relative;
+    top: 5px;
+}
+
+.contant .photos img {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    left: 70px;
+    margin-top: 30px;
+    box-shadow: 11px -7px 12px 0px #b5b5cf;
+}
+
+.paragraph {
+    background-color: white;
+    top: 55px;
+    height: fit-content;
+    width: 50%;
+    right: 25px;
+    position: absolute;
+    text-align: start;
+    line-height: 1.5;
+    bottom: -210px;
+    padding: 10px;
+}
+
+.last-contant {
+    width: 100%;
+    height: 200px;
+    background-color: aquamarine;
+    position: relative;
+}
+
+.last-contant .last-1 .tour {
+    position: absolute;
+    height: 270px;
+    width: 100%;
+}
+/* caption holiday */
+.last-contant .last-1 .holiday {
+    opacity: .9;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-family: cursive;
+}
+
+.last-section {
+    opacity: .9;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+/* edit all cards */
+.card {
+    opacity: .9;
+    width: fit-content;
+    display: flex;
+    background-color: #8fccb799;
+    box-shadow: 7px 8px 15px #3d613e;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 16px;
+    transition: .5s ease;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.last-icon {
+    font-size: x-large;
+    justify-content: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    margin: 5px;
+}
+
